@@ -1,0 +1,87 @@
+
+body{
+    background-color: rgb(28, 24, 47);
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px  0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;    
+    gap:20px;
+}
+.contenedor-conciertos {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+} 
+
+.boton-verde{
+    background-color: rgb(11, 245, 116);
+    color: black;
+    border-radius:  10px;
+    padding: 8px 18px;
+     }
+
+
+.boton-amarillo{
+    background-color: yellow;
+    color: black;
+    border-radius:  10px;
+    padding: 8px 18px;
+
+    
+}
+.banner { 
+    border-radius:  10px;
+    text-align: center;
+    padding: 20px;
+    background-size: cover ;
+    background-position: center center;
+    display: grid;
+    display: flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    color:white;
+}
+.card{
+    font: 100px;
+    border-radius: 10px;
+    min-height: 250px;
+    font-weight: bold;
+    padding:relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    width: 33.33%-20px;
+    color:white;
+}   
+.card-textos{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
